@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css" />
+		
+	</head>
+	<body>
+		<header>
+			<h1>Owl Store</h1>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+				  <a class="navbar-brand bg-warning " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+					<path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"/>
+				  </svg> Owl Store</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Categorías
+						</a>
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">Pantalones</a></li>
+						  <li><a class="dropdown-item" href="#">Perfumes</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Zapatos</a></li>
+						</ul>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link disabled" aria-disabled="true"></a>
+					  </li>
+					</ul>
+					<form class="d-flex" role="search">
+					  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+					  <button class="btn btn-outline-success" type="submit">Buscar</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+		</header>
+				  <div id="carouselExampleIndicators" class="carousel slide">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<a href="#"><img src="imagenes/perfumes-vainilla-6459484490104.jpg" class="d-block w-100" alt="perfume"></a>
+			  </div>
+			  <div class="carousel-item">
+				<a href="#"><img src="imagenes/568455521_176372061_1706x960.jpg" class="d-block w-100" alt="jeans"></a>
+			  </div>
+			  <div class="carousel-item">
+				<a href="#"><img src="imagenes/chaqueta-3-en-1-basic-hombre-100-poly-gris-t-s.jpg" class="d-block w-100" alt="chaqueta"></a>
+			  </div>
+			  <div class="carousel-item">
+				<a href="#"><img src="imagenes/mochila.jpg" class="d-block w-100" alt="mochila"></a>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+		  <br>
+		<div class="container-items">
+			<div class="item">
+				<img src="https://intn24.lalr.co/old/su19_jd_theones_nikenews_aj1_low_gymred_rectangle_1600.jpg" alt="producto">
+				<div class="info-product">
+					<h2>Zapatos</h2>
+					<p class="price">$80</p>
+					<button>Añadir al carrito </button>
+				</div>
+			</div>
+			<div class="item">
+				<img src="https://cadtoner.com.mx/9551-large_default/audifonos-bluetooth-y-manos-libres-con-bateria-de-hasta-24-hrs-marca-steren.jpg" alt="producto">
+				<div class="info-product">
+					<h2>Audifonos</h2>
+					<p class="price">$20</p>
+					<button>Añadir al carrito </button>
+					
+				</div>
+			</div>
+			<div class="item">
+				<img src="https://i.pinimg.com/736x/77/05/6e/77056e7d422f441d0bba7508e0146785.jpg" alt="producto">
+				<div class="info-product">
+					<h2>Reloj</h2>
+					<p class="price">$50</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<img src="https://media.es.wired.com/photos/64ee4f3f36da5369eab4afdb/1:1/w_1304,h_1304,c_limit/Apple-Watch-Ultra-New-Gear.jpg" alt="producto">
+				<div class="info-product">
+					<h2>Smartwatch</h2>
+					<p class="price">$90</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<img src="https://hips.hearstapps.com/hmg-prod/images/home-dior-1643269404.jpg?resize=1200:*" alt="producto">
+				<div class="info-product">
+					<h2>Perfume</h2>
+					<p class="price">$50</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
